@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "59910428285",
+    "firebase_url": "https://connectapp-cab87.firebaseio.com",
+    "project_id": "connectapp-cab87",
+    "storage_bucket": "connectapp-cab87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59910428285:android:3b554015a5511c3b9ac314",
+        "android_client_info": {
+          "package_name": "com.kotlin.connectapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59910428285-ntrkihpjc9q64o7foalmrjhk6gdltcdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeIBiFS5QnFdYiCsK-cECOrx4Lh069X2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59910428285-ntrkihpjc9q64o7foalmrjhk6gdltcdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

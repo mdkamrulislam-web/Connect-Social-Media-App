@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateSnapShotsActivity">
+
+    <ImageView
+        android:id="@+id/chooseImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/chooseImageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/holo_blue_bright"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/chooseImageButton"
+        android:layout_width="170dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="13dp"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="chooseImageClicked"
+        android:text="Choose Image"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_light"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/statusEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/statusEditText"
+        android:layout_width="348dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="What's going on your mind?"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/connectMoreButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/connectMoreButton"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
+        android:background="?attr/colorAccent"
+        android:fontFamily="sans-serif"
+        android:onClick="connectPeopleClicked"
+        android:text="Send Connect"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
